@@ -8,4 +8,5 @@ WORKDIR /tmp/boxfuse-sample-java-war-hello
 RUN mvn package
 RUN cp target/hello-1.0.war /var/lib/tomct9/webapps/
 EXPOSE 80 
+
 CMD ["catalina.sh", "run"] 
