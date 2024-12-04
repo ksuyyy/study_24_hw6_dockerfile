@@ -1,4 +1,4 @@
-FROM tomcat:9.0.97-jdk11
+FROM tomcat:9.0.97-jdk17
 RUN apt update
 RUN apt install git -y
 RUN apt install maven -y
